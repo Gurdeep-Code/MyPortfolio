@@ -4,7 +4,10 @@ import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
 export const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
       <div className="absolute inset-0 grid-bg opacity-60" aria-hidden />
       <div className="absolute inset-0 bg-gradient-hero" aria-hidden />
 
@@ -29,7 +32,7 @@ export const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight"
           >
-          Hello, I'm <span className="text-gradient">Gurdeep Singh</span>
+            Hello, I'm <span className="text-gradient">Gurdeep Singh</span>
           </motion.h1>
 
           <motion.p
@@ -39,8 +42,9 @@ export const Hero = () => {
             className="mt-6 max-w-2xl text-lg md:text-xl text-muted-foreground"
           >
             A Software Development Engineer with{" "}
-            <span className="text-primary font-mono">4 years</span> architecting high-performance React, Next.js & Node.js
-            platforms serving hundreds of thousands of users.
+            <span className="text-primary font-mono">4 years</span> architecting
+            high-performance React, Next.js & Node.js platforms serving hundreds
+            of thousands of users.
           </motion.p>
 
           <motion.div
@@ -58,14 +62,16 @@ export const Hero = () => {
             </a>
             <a
               href="https://github.com/Gurdeep-Code"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 font-mono text-sm hover:border-primary/50 hover:text-primary transition-colors"
             >
               <GithubIcon className="h-4 w-4" /> GitHub
             </a>
             <a
               href="https://www.linkedin.com/in/gurdeep-9999867846-dev"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 font-mono text-sm hover:border-primary/50 hover:text-primary transition-colors"
             >
               <LinkedinIcon className="h-4 w-4" /> LinkedIn
@@ -84,21 +90,30 @@ export const Hero = () => {
               <span className="h-2.5 w-2.5 rounded-full bg-destructive/70" />
               <span className="h-2.5 w-2.5 rounded-full bg-yellow-500/70" />
               <span className="h-2.5 w-2.5 rounded-full bg-emerald-500/70" />
-              <span className="ml-3 text-xs text-muted-foreground">~/gurdeep/profile.ts</span>
+              <span className="ml-3 text-xs text-muted-foreground">
+                ~/gurdeep/profile.ts
+              </span>
             </div>
             <pre className="text-xs leading-relaxed text-muted-foreground">
-<span className="text-primary">const</span> <span className="text-foreground">engineer</span> = {"{"}
-{"\n  "}name: <span className="text-emerald-400">'Gurdeep Singh'</span>,
-{"\n  "}role: <span className="text-emerald-400">'SDE-1'</span>,
-{"\n  "}stack: [<span className="text-emerald-400">'React.js'</span>,
-{"\n  "}stack: [<span className="text-emerald-400">'Next.js'</span>,
-{"\n          "}<span className="text-emerald-400">'Node.js'</span>,
-{"\n          "}<span className="text-emerald-400">'JavaScript'</span>,
-{"\n          "}<span className="text-emerald-400">'TypeScript'</span>,
-{"\n  "}focus: <span className="text-emerald-400">'performance'</span>,
-{"\n  "}Experience: <span className="text-emerald-400">'4'</span>,
-{"\n  "}shipping: <span className="text-primary">true</span>,
-{"\n"}{"}"};
+              <span className="text-primary">const</span>{" "}
+              <span className="text-foreground">engineer</span> = {"{"}
+              {"\n  "}name:{" "}
+              <span className="text-emerald-400">'Gurdeep Singh'</span>,{"\n  "}
+              role: <span className="text-emerald-400">'SDE-1'</span>,{"\n  "}
+              stack: [<span className="text-emerald-400">'React.js'</span>,
+              {"\n          "}
+              <span className="text-emerald-400">'Next.js'</span>,
+              {"\n          "}
+              <span className="text-emerald-400">'Node.js'</span>,
+              {"\n          "}
+              <span className="text-emerald-400">'JavaScript'</span>,
+              {"\n          "}
+              <span className="text-emerald-400">'TypeScript'</span>,{"\n  "}
+              focus: <span className="text-emerald-400">'performance'</span>,
+              {"\n  "}Experience: <span className="text-emerald-400">'4'</span>,
+              {"\n  "}shipping: <span className="text-primary">true</span>,
+              {"\n"}
+              {"}"};
             </pre>
             <div className="mt-4 flex items-center gap-2 text-xs text-primary">
               <Sparkles className="h-3.5 w-3.5" /> Crafted with intent.
