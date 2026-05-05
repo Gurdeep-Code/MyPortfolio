@@ -31,10 +31,10 @@ const groups = [
 
 export const Skills = () => {
   return (
-    <section id="skills" className="container mx-auto px-6 py-28">
+    <section id="skills" className="container mx-auto px-6 pt-24 pb-16">
       <SectionHeading
-        number="02"
-        title="Skills & Toolbox"
+        number="01"
+        title="Skills"
         subtitle="A curated stack honed across enterprise, EdTech, and government-scale platforms."
       />
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

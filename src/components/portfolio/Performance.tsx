@@ -12,9 +12,9 @@ const RESUME_FILE_ID = "1EMu_je6NKUpIrFbKra92yjCDc58RGglu";
 const RESUME_VIEW_URL = `https://drive.google.com/file/d/${RESUME_FILE_ID}/view`;
 const RESUME_DOWNLOAD_URL = `https://drive.google.com/uc?export=download&id=${RESUME_FILE_ID}`;
 
-export const Performance = () => {
+export const ResumeDownload = () => {
   return (
-    <section className="container mx-auto px-6 py-20 space-y-12">
+    <section className="container mx-auto px-6 pt-12 space-y-12">
       <Reveal>
         <div className="glow-border relative overflow-hidden rounded-2xl bg-card/60 p-8 md:p-10">
           <div className="absolute -top-24 -right-24 h-64 w-64 rounded-full bg-primary/10 blur-3xl" aria-hidden />

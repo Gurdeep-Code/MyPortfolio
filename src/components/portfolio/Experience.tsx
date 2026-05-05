@@ -45,9 +45,9 @@ const roles = [
 
 export const Experience = () => {
   return (
-    <section id="experience" className="container mx-auto px-6 py-28">
+    <section id="experience" className="container mx-auto px-6 pt-24 pb-16">
       <SectionHeading
-        number="03"
+        number="02"
         title="Experience"
         subtitle="Three companies. Real impact at every step."
       />

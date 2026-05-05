@@ -3,16 +3,6 @@ import { ProjectCard, type ProjectCardProps } from "./ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
-    title: "Prepinsta Prime",
-    tagline: "OTT-style EdTech subscription platform",
-    description:
-      "200+ courses spanning upskilling, coding & placement preparation. Architected the subscriber experience serving end-to-end career development for a massive paying audience.",
-    metric: "300,000+ paid subscribers",
-    category: "EdTech · Production",
-    tech: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "Material UI"],
-    featured: true,
-  },
-  {
     title: "CSC Bal Vidyalaya",
     tagline: "Government of India flagship EdTech initiative",
     description:
@@ -31,6 +21,14 @@ const projects: ProjectCardProps[] = [
     tech: ["Next.js", "React.js", "Tailwind CSS", "Shadcn"],
   },
   {
+    title: "Optimus Assessment",
+    tagline: "Placement-prep assessment engine",
+    description:
+      "MCQ tests, coding challenges and analytics. Designed core test execution, evaluation and progress tracking flows.",
+    category: "Assessments",
+    tech: ["React.js", "Node.js", "MongoDB", "Material UI"],
+  },
+  {
     title: "Interactive Lead Generation Chatbot",
     tagline: "Conversational lead capture for higher conversion",
     description:
@@ -40,18 +38,20 @@ const projects: ProjectCardProps[] = [
     url: "https://airhostessinstitute.com/admission-chat/",
   },
   {
-    title: "Optimus Assessment",
-    tagline: "Placement-prep assessment engine",
+    title: "Prepinsta Prime",
+    tagline: "OTT-style EdTech subscription platform",
     description:
-      "MCQ tests, coding challenges and analytics. Designed core test execution, evaluation and progress tracking flows.",
-    category: "Assessments",
-    tech: ["React.js", "Node.js", "MongoDB", "Material UI"],
+      "200+ courses spanning upskilling, coding & placement preparation. Architected the subscriber experience serving end-to-end career development for a massive paying audience.",
+    metric: "300,000+ paid subscribers",
+    category: "EdTech · Production",
+    tech: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "Material UI"],
+    // featured: true,
   },
   {
     title: "Quick Campus",
     tagline: "School ERP platform",
     description:
-      "Centralized attendance, fees, academic reporting & visitor tracking — a unified dashboard for admins, teachers and parents.",
+      "A comprehensive School ERP (Enterprise Resource Planning) platform designed to digitize school administration. The system centralizes critical operations including student attendance, fee management, academic reporting, and visitor tracking, providing a unified dashboard for administrators, teachers, and parents to improve institutional efficiency.",
     category: "ERP",
     tech: ["React.js", "Material UI"],
   },
@@ -59,9 +59,9 @@ const projects: ProjectCardProps[] = [
 
 export const Projects = () => {
   return (
-    <section id="projects" className="container mx-auto px-6 py-28">
+    <section id="projects" className="container mx-auto px-6 pt-24 pb-16">
       <SectionHeading
-        number="04"
+        number="03"
         title="Projects"
         subtitle="Platforms shipped to real users at real scale."
       />

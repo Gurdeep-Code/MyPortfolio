@@ -22,9 +22,9 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="container mx-auto px-6 py-28">
+    <section id="contact" className="container mx-auto px-6 pt-24 pb-16">
       <SectionHeading
-        number="06"
+        number="05"
         title="Let's build something."
         subtitle="Open to senior frontend, full-stack and engineering roles. The fastest way to reach me is email."
       />
@@ -80,8 +80,7 @@ export const Contact = () => {
       </Reveal>
 
       <footer className="mt-20 flex flex-col md:flex-row items-center justify-between gap-3 border-t border-border/60 pt-8 font-mono text-xs text-muted-foreground">
-        <div>© {new Date().getFullYear()} Gurdeep Singh. Crafted with React + Framer Motion.</div>
-        <div>Designed & built in <span className="text-primary">/dev</span></div>
+        <div>© {new Date().getFullYear()} Gurdeep Singh</div>
       </footer>
     </section>
   );

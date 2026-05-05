@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Code2 } from "lucide-react";
 
 const links = [
-  { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
@@ -36,9 +35,9 @@ export const Navbar = () => {
         </ul>
         <a
           href="#contact"
-          className="hidden md:inline-flex items-center rounded-md border border-primary/40 px-4 py-1.5 text-sm font-mono text-primary hover:bg-primary/10 transition-colors"
+          className="md:hidden inline-flex items-center rounded-md border border-primary/40 px-4 py-1.5 text-sm font-mono text-primary hover:bg-primary/10 transition-colors"
         >
-          Hire me
+          Contact Me
         </a>
       </nav>
     </motion.header>

@@ -15,8 +15,8 @@ const edu = [
 ];
 
 export const Education = () => (
-  <section id="education" className="container mx-auto px-6 py-20">
-    <SectionHeading number="05" title="Education" />
+  <section id="education" className="container mx-auto px-6 pt-24 pb-16">
+    <SectionHeading number="04" title="Education" />
     <div className="grid gap-5 md:grid-cols-2">
       {edu.map((e, i) => (
         <Reveal key={e.degree} delay={i * 0.05}>
