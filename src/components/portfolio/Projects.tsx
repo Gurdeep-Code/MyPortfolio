@@ -1,5 +1,6 @@
 import { Reveal, SectionHeading } from "./Reveal";
 import { ProjectCard, type ProjectCardProps } from "./ProjectCard";
+import projectSample1 from "@/assets/project-sample-1.png";
 
 const projects: ProjectCardProps[] = [
   {
@@ -10,6 +11,7 @@ const projects: ProjectCardProps[] = [
     metric: "3,500+ centers across India",
     category: "Government · ERP",
     tech: ["React.js", "Material UI", "jsPDF", "SheetJS", "Web Workers"],
+    images: [projectSample1, projectSample1, projectSample1],
   },
   {
     title: "Vein India",
